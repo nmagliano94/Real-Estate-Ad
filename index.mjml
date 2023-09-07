@@ -1,0 +1,244 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+
+    <mj-attributes>
+      <mj-all color="#2C2C2C" font-family="Arial" padding="0" />
+      <mj-class name="body-text" font-size="14px" line-height="22px" />
+      <mj-class name="list-text" padding-top="10px" font-size="14px" line-height="28px" />
+      <mj-class name="btn" border-radius="8px" inner-padding="7px 108px" align="center" font-size="14px" font-weight="500" line-height="22px" fluid-on-mobile="true" />
+      <mj-class name="footer-text" font-size="12px" line-height="18px" />
+
+      <mj-class name="benefit" padding="20px 10px 0px 10px" />
+      <mj-class name="benefit-img" align="center" width="100px" height="100px" />
+      <mj-class name="benefit-title" align="center" padding-top="15px" font-size="14px" font-weight="700" line-height="18px" />
+      <mj-class name="benefit-content" align="center" padding-top="10px" font-size="12px" line-height="18px" />
+
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .body-anchor-text {
+        display: inline;
+        color: #007BFF;
+        font-size: 14px;
+        line-height: 22px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .text-gray {
+        color: #6C757D;
+      }
+
+      .footer-anchor-text {
+        display: inline;
+        color: #2C2C2C;
+        font-size: 12px;
+        line-height: 22px;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .text-blue {
+        color: #007BFF;
+      }
+    </mj-style>
+    <mj-style>
+        .body-anchor-text:hover,
+        .footer-anchor-text:hover {
+          text-decoration: underline !important;
+        }
+
+        .btn-dark-outline a:hover,
+        .btn-dark a:hover {
+            color: #FFFFFF !important;
+            background-color: #212529 !important;
+            border-color: #212529 !important;
+        }
+
+        .btn-dark-outline td:hover,
+        .btn-dark td:hover {
+            color: #FFFFFF !important;
+            background-color: #212529 !important;
+            border-color: #212529 !important;
+        }
+
+        @media only screen and (max-width:599px) {
+          .company-footer-img {
+            padding-top: 20px !important;
+            text-align: left !important;
+          }
+
+          .footer {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+          }
+        }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f2f2f2">
+    <!-- Email Title -->
+    <mj-section>
+      <mj-group>
+        <mj-column background-color="#ffffff" padding="10px">
+        <mj-image src="https://i.postimg.cc/RhwDxHZ2/logo.png" alt="logo" width="100px"/>
+          <mj-text align="center" padding="5px 0" color="#000000" font-size="22px" line-height="18px">
+            Magliano Realty Group
+          </mj-text>
+          <mj-text align="center" padding="5px 0" color="#999999" font-size="22px" line-height="18px">
+            Soak up the joys of summer with these brand new listings
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Email Title -->
+
+    
+
+    <!-- Hero -->
+    <mj-section>
+      <mj-group>
+        <mj-column background-color="#ffffff" padding="15px">
+          <mj-image src="https://i.postimg.cc/Z5bDX0tD/house.jpg" alt="large house with pool" width="555px" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Hero -->
+
+    <!-- Main Content -->
+    <mj-section background-color="#ffffff">
+      <mj-group>
+        <mj-column padding="20px">
+          <mj-text mj-class="body-text">
+            Hi <strong>Nick,</strong> <br><br>
+            Ready to find your dream home? Well we're here to help! With our world class team of experienced realtors ready to
+            help you start a new chapter of your life in California, we guarantee we will find a home that suits your needs. 
+          </mj-text>
+          <mj-text mj-class="body-text" padding="20px 0px">
+            Still unsure if California is right for you? Here are 6 reasons to convince you otherwise.
+          </mj-text>
+          <mj-text mj-class="list-text">
+            1. diverse job opportunities
+          </mj-text>
+          <mj-text mj-class="list-text">
+            2. excellent education options
+          </mj-text>
+          <mj-text mj-class="list-text">
+            3. pleasant climate with numerous outdoor activities
+          </mj-text>
+          <mj-text mj-class="list-text">
+            4. rich cultural history.
+          </mj-text>
+          <mj-text mj-class="list-text">
+            5. unparalleled State and National Parks.
+          </mj-text>
+          <mj-text mj-class="list-text" padding-bottom="20px">
+            6. quality food
+          </mj-text>
+          <mj-button href="https://www.google.com" css-class="btn-dark-outline" target="_blank" mj-class="btn" color="black" border="1px solid grey" background-color="transparent">
+          Inquire Today!
+          </mj-button>
+          <mj-text mj-class="body-text" padding-top="20px">
+            If you would like to learn more about our team, current listings, or have any general questions, feel free to
+           <a href="https://www.google.com" target="_blank" class="body-anchor-text"> visit our website</a> 
+           for further information.
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Main Content -->
+
+    <!-- Benefits -->
+    <mj-wrapper padding="10px 20px 20px 20px" background-color="#FFFFFF">
+      <mj-section background-color="#E2E3E5" border-radius="5px 5px 0px 0px">
+        <mj-group>
+          <mj-column padding="20px 0px">
+            <mj-text align="center" font-size="16px" line-height="22px">
+              The joys of California
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section background-color="#E2E3E5" padding="0px 15px">
+        <mj-column mj-class="benefit">
+          <mj-image src="https://i.postimg.cc/m2GnN8d4/benefit1.jpg" alt="a blue house" height="118px" />
+          <mj-text mj-class="benefit-title">
+            Beautiful Neighborhoods
+          </mj-text>
+          <mj-text mj-class="benefit-content">
+           Not a city person? No problem! Settle down in one of the many suburban area's that suit your lifestyle the best.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="benefit">
+          <mj-image src="https://i.postimg.cc/59zGCZSp/benefit2.jpg" alt="a blue house" />
+          <mj-text mj-class="benefit-title">
+            Incredible Scenery
+          </mj-text>
+          <mj-text mj-class="benefit-content">
+           Kick back and unwind the California way. There are more than 3000 lakes and reservoirs that will provide you with the relaxation and tranquility you desire.
+          </mj-text>
+        </mj-column>
+        <mj-column mj-class="benefit">
+          <mj-image src="https://i.postimg.cc/m2N5dCqH/benefit3.jpg" alt="a blue house" height="117px" />
+          <mj-text mj-class="benefit-title">
+          Endless Activities
+          </mj-text>
+          <mj-text mj-class="benefit-content">
+            With over 33 million acres of forest, you can be assured there will be no lack of excitment when adventure calls.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#E2E3E5" border-radius="0px 0px 5px 5px">
+        <mj-group>
+          <mj-column>
+            <mj-button href="https://www.google.com" css-class="btn-dark" target="_blank" padding="35px 15px 35px 15px" mj-class="btn" color="black" border="1px solid grey" background-color="gray">
+             Explore now!
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+    <!-- End Benefits -->
+
+    <!--  Company Footer -->
+    <mj-section border-top="2px solid gray" background-color="#ffffff" padding="15px 20px">
+      <mj-column>
+        <mj-text mj-class="body-text">
+          Serving California proudly since 1994 <br>
+          <span class="text-gray">Discover your dream home today.</span>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image css-class="company-footer-img" src="images/logo.png" alt="logo" width="80px" height="48px" padding="5px 0" align="right" />
+      </mj-column>
+    </mj-section>
+    <!-- End Company Footer -->
+
+    <!-- Footer -->
+    <mj-section>
+      <mj-group>
+        <mj-column css-class="footer" padding="20px 0">
+          <mj-text mj-class="footer-text">
+            <strong>Need more information?</strong> Send us an email | <a href="mailto:contact@example.com" class="footer-anchor-text text-blue">contact@example.com</a>
+          </mj-text>
+          <mj-text mj-class="footer-text" padding-top="15px">
+            <a href="https://www.google.com" target="_blank" class="footer-anchor-text text-gray">
+              Terms Of Service</a>
+            |
+            <a href="https://www.google.com" target="_blank" class="footer-anchor-text text-gray">
+              Privacy Policy</a>
+          </mj-text>
+          <mj-text mj-class="footer-text" padding-top="5px">
+            Copyright © Magliano Realty 2023 | All rights reserved |
+            123 Address Lane, Norwood NJ |
+            <a href="tel:0012345678" class="footer-anchor-text text-blue">+00-1234-5678</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Footer -->
+  </mj-body>
+</mjml>
